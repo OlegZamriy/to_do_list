@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Data">
+      <UniqueIdentifier>{ec029a56-d1b5-49e4-ae3f-c34152a71baf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\DataSource">
+      <UniqueIdentifier>{5e6efe22-5714-4eeb-a93d-e9c6a3e4d09b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\DataSource\Local">
+      <UniqueIdentifier>{a804406b-b598-4a74-8d94-9acbabcc6347}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Domain">
+      <UniqueIdentifier>{de0cfede-c89e-4c5f-acf3-a9c66257febf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Domain\Entity">
+      <UniqueIdentifier>{452e7cba-d585-412d-8836-ec0176b79a70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Domain\Entity\Repository">
+      <UniqueIdentifier>{ddd800a8-c066-4bf7-a9a4-88c14d499184}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu">
+      <UniqueIdentifier>{bf3bd769-d9d9-4bec-9e3f-0f751efd8862}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Presentation">
+      <UniqueIdentifier>{b8b08404-5771-44a6-80af-14dd1745dc6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Presentation\Functions">
+      <UniqueIdentifier>{2abba04a-0cd7-400c-a254-0c75028af59c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Presentation\Screens">
+      <UniqueIdentifier>{9c031139-b0a2-47e1-8546-7591ec88900d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Data.h">
+      <Filter>Data\DataSource\Local</Filter>
+    </ClInclude>
+    <ClInclude Include="Repository.h">
+      <Filter>Domain\Entity\Repository</Filter>
+    </ClInclude>
+    <ClInclude Include="Constants.h">
+      <Filter>Domain\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Functions.h">
+      <Filter>Presentation\Functions</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Repository.cpp">
+      <Filter>Domain\Entity\Repository</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Functions.cpp">
+      <Filter>Presentation\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Presentation\Screens</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
